@@ -98,6 +98,13 @@
   .weather__info{
     padding: 100px;
   }
+  .searchbar input{
+    border-radius: 0;
+  }
+  .searchbar button{
+    border-radius: 0;
+  }
+
 }
 @media screen and (max-width: 380px){
   .weather__info{
