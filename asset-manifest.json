@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wedda/static/css/main.c7a7163a.css",
+    "main.js": "/wedda/static/js/main.6554a908.js",
+    "static/js/787.d9312eb8.chunk.js": "/wedda/static/js/787.d9312eb8.chunk.js",
+    "static/media/25501.jpg": "/wedda/static/media/25501.fe6cd0d8bcd5c44cd7c0.jpg",
+    "index.html": "/wedda/index.html",
+    "main.c7a7163a.css.map": "/wedda/static/css/main.c7a7163a.css.map",
+    "main.6554a908.js.map": "/wedda/static/js/main.6554a908.js.map",
+    "787.d9312eb8.chunk.js.map": "/wedda/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7a7163a.css",
+    "static/js/main.6554a908.js"
+  ]
+}
