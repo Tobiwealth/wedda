@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  background: url(../public/images/25501.jpg)  center center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.searchbar input{
+  width: 15vw;
+  height: 40px;
+  border-radius: 30px 0 0 30px;
+  border: none;
+  margin: 50px 0;
+}
+.searchbar button{
+  width: 7vw;
+  height: 40px;
+  border-radius: 0 30px 30px 0;
+  border: none;
+  background-color: #00203FFF;
+  color: white;
+}
+.searchbar input::placeholder{
+  text-align: center;
+}
+.weather__info{
+  display: flex;
+  flex-direction: column;
+}
+.name__of__city{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: white;
+  padding: 5px;
+}
+.border{
+  width: 120px;
+  height: 2px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.date{
+  font-size: 1rem;
+  color: white;
+  padding: 5px;
+}
+.temperature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temp__value{
+  font-size: 5rem;
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(-50px);
+  border-radius: 15px;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  color: #7d7c78;
+}
+.temp__icon{
+  height: 6.4rem;
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(-50px);
+  border-radius: 15px;
+  padding: 0;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.type__of__temp{
+  margin-top: 5px;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.footer{
+  color: black;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 13px;
+}
+
+@media screen and (max-width: 650px){
+  .searchbar input{
+    width: 32vw;
+    height: 40px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    margin: 50px 0;
+  }
+  .searchbar button{
+    width: 17vw;
+    height: 40px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    background-color: #00203FFF;
+    color: white;
+  }
+  .weather__info{
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 380px){
+  .weather__info{
+    padding: 30px;
+  }
+}
+
